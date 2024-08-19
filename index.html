@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba de Programación Orientada a Objetos</title>
-    <style>
-        .resultado {
-            margin: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Prueba de Programación Orientada a Objetos en JavaScript</h1>
-    <p>Los resultados se mostrarán a continuación:</p>
+    <div class="container">
+        <h1>Prueba de Programación Orientada a Objetos en JavaScript</h1>
+        <p>Los resultados se mostrarán a continuación:</p>
 
-    <div class="resultado" id="resultado-personaje"></div>
-    <div class="resultado" id="resultado-guerrero"></div>
+        <div class="resultado" id="resultado-personaje">
+            <h2>Personaje</h2>
+            <p id="personaje-info">Cargando...</p>
+        </div>
+
+        <div class="resultado" id="resultado-guerrero">
+            <h2>Guerrero</h2>
+            <p id="guerrero-info">Cargando...</p>
+        </div>
+
+        <a href="#" class="button" onclick="reiniciar()">Reiniciar</a>
+    </div>
 
     <script src="script.js"></script>
 </body>
