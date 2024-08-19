@@ -48,7 +48,7 @@
 
     // Función para reiniciar resultados (opcional)
 function reiniciar() {
-    document.getElementById('resultado-personaje').innerHTML = '<h2>Personaje</h2>';
-    document.getElementById('resultado-guerrero').innerHTML = '<h2>Guerrero</h2>';
+    document.getElementById('resultado-personaje').innerHTML = '<h2>Heroe</h2>';
+    document.getElementById('resultado-guerrero').innerHTML = '<h2>Villano</h2>';
     mostrarResultados();
 }
