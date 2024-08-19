@@ -33,14 +33,14 @@
     }
 
     // Crear una instancia de Personaje
-    const personaje = crearPersonaje('Gandalf', 100);
+    const personaje = crearPersonaje('Batman', 100);
     personaje.atacar(); // Output: Gandalf ataca!
     document.getElementById('resultado-personaje').innerHTML += `Vida: ${personaje.obtenerVida()}<br>`;
     personaje.modificarVida(80);
     document.getElementById('resultado-personaje').innerHTML += `Vida después de modificar: ${personaje.obtenerVida()}<br>`;
 
     // Crear una instancia de Guerrero
-    const guerrero = crearGuerrero('Aragorn', 100, 50);
+    const guerrero = crearGuerrero('Guasón', 100, 50);
     guerrero.atacar(); // Output: Aragorn ataca con fuerza!
     document.getElementById('resultado-guerrero').innerHTML += `Vida: ${guerrero.obtenerVida()}<br>`;
     guerrero.modificarVida(80);
