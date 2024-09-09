@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Evaluación 1er parcial</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para deshabilitar la selección, copia y pegado en el textarea */
+        #textarea1 {
+            user-select: none; /* Deshabilita la selección de texto */
+            -webkit-user-select: none; /* Deshabilita la selección de texto en Chrome y Safari */
+            -moz-user-select: none; /* Deshabilita la selección de texto en Firefox */
+            -ms-user-select: none; /* Deshabilita la selección de texto en Internet Explorer y Edge */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página</h1>
+        <h1>Mi primer código javascript</h1>
     </header>
 
     <section id="main-content">
         <p>Escribe código JavaScript en el campo y haz clic en "Run".</p>
         <div class="textarea-container">
-            <textarea id="textarea1" placeholder="Escribe tu código JavaScript aquí"></textarea>
+            <textarea id="textarea1" placeholder="Escribe tu código JavaScript aquí">let saludo = "hola";\nconsole.log(saludo);</textarea>
         </div>
         <button id="runButton">Run</button>
     </section>
