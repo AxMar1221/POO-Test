@@ -36,7 +36,8 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: none; /* Para evitar que el usuario cambie el tamaño de las textareas */
+    resize: both;
+    /*resize: none;  Para evitar que el usuario cambie el tamaño de las textareas */
 }
 
 /* Estilos para el botón */
