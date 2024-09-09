@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POO</title>
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>POO</h1>
-        <p>Los resultados se mostrarán a continuación:</p>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+    </header>
 
-        <div class="resultado" id="resultado-personaje">
-            <h2>Heroe</h2>
-            <!--<p id="personaje-info">Cargando...</p>-->
-            <p id="personaje-info"></p>
+    <section id="main-content">
+        <p>Escribe algo en los campos y haz clic en "Run".</p>
+        <div class="textarea-container">
+            <textarea id="textarea1" placeholder="Texto en el primer campo"></textarea>
+            <textarea id="textarea2" placeholder="Texto en el segundo campo"></textarea>
         </div>
+        <button id="runButton">Run</button>
+    </section>
 
-        <div class="resultado" id="resultado-guerrero">
-            <h2>Villano</h2>
-            <!--<p id="guerrero-info">Cargando...</p>-->
-            <p id="guerrero-info"></p>
-        </div>
-
-        <a href="#" class="button" onclick="reiniciar()">Reiniciar</a>
-    </div>
+    <footer>
+        <p>&copy; 2024 Mi Página Web</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
