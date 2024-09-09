@@ -55,16 +55,6 @@ button:hover {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer {
     position: absolute;
     color: #0a3871;
     height: auto;
@@ -125,11 +115,3 @@ footer {
       display: none;
     }
   }
-
-  /* Estilos para el textarea deshabilitado */
-#textarea1 {
-    user-select: none; /* Deshabilita la selección de texto */
-    -webkit-user-select: none; /* Deshabilita la selección de texto en Chrome y Safari */
-    -moz-user-select: none; /* Deshabilita la selección de texto en Firefox */
-    -ms-user-select: none; /* Deshabilita la selección de texto en Internet Explorer y Edge */
-}
