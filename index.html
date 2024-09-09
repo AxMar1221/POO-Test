@@ -12,16 +12,26 @@
     </header>
 
     <section id="main-content">
-        <p>Escribe algo en los campos y haz clic en "Run".</p>
+        <p>Escribe código JavaScript en el campo y haz clic en "Run".</p>
         <div class="textarea-container">
-            <textarea id="textarea1" placeholder="Texto en el primer campo"></textarea>
-            <textarea id="textarea2" placeholder="Texto en el segundo campo"></textarea>
+            <textarea id="textarea1" placeholder="Escribe tu código JavaScript aquí"></textarea>
         </div>
         <button id="runButton">Run</button>
+        <textarea id="consoleOutput" placeholder="Salida de la consola" readonly></textarea>
     </section>
 
     <footer>
-        <p>&copy; 2024 Mi Página Web</p>
+        <p>
+            <img src="https://avatars.githubusercontent.com/u/85906328?v=4" alt="avatar-github" class="avatar-github">
+            Mario Hernández "Tachi"
+            <a href="https://github.com/AxMar1221">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mario-hern%C3%A1ndez-ram%C3%ADrez-jim%C3%A9nez-aa5b8a237/">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </p>
+        <p>&copy; <span id="currentYear"></span> Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
